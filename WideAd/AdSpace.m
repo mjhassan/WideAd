@@ -9,9 +9,8 @@
 #import "AdSpace.h"
 #import "HTTPService.h"
 #import "Ad.h"
-#import "UIView+Layout.h"
 
-@interface AdSpace () {
+@interface AdSpace () <UIWebViewDelegate> {
     UIWebView *_webview;
 }
 @end

@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char WideAdVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <WideAd/PublicHeader.h>
 
-
+#import <WideAd/AdSpace.h>
+#import <WideAd/AdSpaceDelegate.h>

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AdSpaceDelegate.h"
 
-@interface AdSpace : UIView <UIWebViewDelegate>
+@interface AdSpace : UIView
 
 @property (weak, nonatomic) id<AdSpaceDelegate> delegate;
 
