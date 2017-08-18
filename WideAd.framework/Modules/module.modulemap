@@ -1,0 +1,6 @@
+framework module WideAd {
+  umbrella header "WideAd.h"
+
+  export *
+  module * { export * }
+}
